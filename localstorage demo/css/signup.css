@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Secular One', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  height: 560px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.container .form h1 {
+  margin-bottom: 10px;
+}
+
+.container .form input {
+  width: 300px;
+  padding: 15px;
+  font-size: 1rem;
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+
+.container .form .submit-btn {
+  width: 300px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  color: whitesmoke;
+  font-size: 1.1rem;
+  border: none;
+  background-color: rgb(248, 168, 21);
+  cursor: pointer;
+  transition: .5s;
+}
+
+.container .form .submit-btn:hover {
+  background-color: rgb(219, 150, 20);
+}
+
+.container .form .no-account {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.container .form .login {
+  text-decoration: none;
+  margin-left: 5px;
+  color: orange;
+}
+
+.container .form .login:hover {
+  text-decoration: none;
+  margin-left: 5px;
+  color: rgb(186, 124, 8);
+}
+
+.error {
+  color: red;
+  display: block;
+}
+
+.success {
+  background-color: green;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
